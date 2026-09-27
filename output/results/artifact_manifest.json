@@ -1,0 +1,29 @@
+{
+  "report": "output/results/반도체_밸류팩터_국면검증_분석결과.md",
+  "notebook": "output/results/반도체_밸류팩터_국면검증_재현.ipynb",
+  "code": "output/results/create_semiconductor_value_outputs.py",
+  "figures": {
+    "quintile_nav": "output/results/quintile_nav_ep_bp.png",
+    "rolling_ic": "output/results/rolling_ic_pmi.png",
+    "universe_share": "output/results/full_market_financial_share_top20.png",
+    "universe_nav": "output/results/full_vs_ex_financial_nav.png",
+    "validation": "output/results/ep_validation_per.png"
+  },
+  "tables": {
+    "performance_summary": "output/results/performance_summary.csv",
+    "ic_summary": "output/results/ic_summary.csv",
+    "ep_definition_summary": "output/results/ep_definition_summary.csv",
+    "validation_summary": "output/results/validation_summary.csv",
+    "manufacturing_proxy_summary": "output/results/manufacturing_proxy_summary.csv",
+    "full_market_snapshot": "output/results/full_market_bp_top20_snapshot.csv"
+  },
+  "counts": {
+    "common_stock_count": 3980,
+    "cyclical_stock_count": 121,
+    "missing_cyclical_count": 0,
+    "manufacturing_stock_count": 3527,
+    "missing_manufacturing_count": 1,
+    "financial_stock_count": 441,
+    "financial_source_is_exact": false
+  }
+}
